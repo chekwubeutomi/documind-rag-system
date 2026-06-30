@@ -10,7 +10,8 @@ for automatic validation and type coercion. The .env file is loaded automaticall
 """
 import os
 from typing import Optional
-from pydantic import BaseSettings
+#from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
