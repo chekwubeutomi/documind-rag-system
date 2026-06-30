@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is FastAPI?",
+    "expected_answer": "FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.6+.",
+    "context": "FastAPI documentation"
+  },
+  {
+    "question": "What are the main features of FastAPI?",
+    "expected_answer": "Main features include automatic API documentation, data validation with Pydantic, and high performance.",
+    "context": "FastAPI features guide"
+  },
+  {
+    "question": "How do I deploy a FastAPI application?",
+    "expected_answer": "You can deploy FastAPI applications using Docker, cloud platforms like AWS/GCP, or traditional servers with Gunicorn.",
+    "context": "FastAPI deployment guide"
+  }
+]

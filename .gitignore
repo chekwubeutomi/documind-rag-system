@@ -1,1 +1,59 @@
-venv
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.pyc
+__pycache__/
+*.egg-info/
+.DS_Store
+
+# Python
+venv/
+env/
+ENV/
+*.py[cod]
+*$py.class
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and logs
+logs/
+data/raw/*
+data/processed/*
+data/qdrant/
+models/sentence_transformers/*
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if using with frontend)
+node_modules/
+.npm/
